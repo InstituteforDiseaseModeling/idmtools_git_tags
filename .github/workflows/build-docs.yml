@@ -31,6 +31,8 @@ jobs:
       - name: Install library
         run: |
           make setup-dev
+        env:
+          BUILD_DEBUG: 1
       - name: Builds docs
         working-directory: 'docs'
         run: |
