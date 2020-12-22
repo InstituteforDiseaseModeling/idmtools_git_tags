@@ -158,3 +158,4 @@ docs/_build
 *.buildlog
 **/.test_platform
 idmtools.log
+docs/idmtools_git_tags*
