@@ -58,6 +58,7 @@ def idmtools_platform_pre_create_item(item: 'IEntity', kwargs):
     add_to_workitems = get_option('add_to_workitems', plugin_opts)
     add_to_suite = get_option('add_to_suite', plugin_opts)
     add_to_asset_collection = get_option('add_to_asset_collection', plugin_opts)
+    # Now determine if we should add tags
     if add_to_all or (isinstance(item, Experiment) and add_to_experiments) or (isinstance(item, Simulation) and add_to_simulations) or \
             (isinstance(item, IWorkflowItem) and add_to_workitems) or (isinstance(item, Suite) and add_to_suite) or \
             (isinstance(item, AssetCollection) and add_to_asset_collection):
