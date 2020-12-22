@@ -74,7 +74,7 @@ def get_repo_tags(plugin_opts) -> Dict[str, str]:
     Try to load info from the local directory
 
     Args:
-        plugin_opts: Optiions from kwargs
+        plugin_opts: Options from kwargs
 
     Returns:
         A dictionary of tags
