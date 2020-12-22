@@ -1,4 +1,3 @@
-import functools
 import os
 import git
 from logging import getLogger, DEBUG
