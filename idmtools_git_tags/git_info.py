@@ -42,7 +42,7 @@ def idmtools_platform_pre_create_item(item: 'IEntity', kwargs):
 
     Args:
         item: Item to add potentially add tags to
-        kwargs: Run/Create KWargs
+        kwargs: Run/Create kwargs
 
     Returns:
         Nothing
