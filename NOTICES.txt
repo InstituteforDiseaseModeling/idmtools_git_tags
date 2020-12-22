@@ -1,0 +1,3 @@
+The idmtools_git_tags project is leveraging the following open source technologies:
+
+Python/coloredlogs	https://pypi.org/project/coloredlogs/	MIT
