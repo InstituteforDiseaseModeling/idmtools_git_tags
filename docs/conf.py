@@ -36,7 +36,8 @@ extensions = [
     'sphinxcontrib.napoleon',
     'sphinx.ext.todo',
     'plantweb.directive',
-    'sphinxcontrib.programoutput'
+    'sphinxcontrib.programoutput',
+    'sphinx.ext.intersphinx'
 ]
 
 plantuml = 'plantweb'
@@ -56,13 +57,7 @@ autodoc_mock_imports = ['shapefile',
                         'ConfigParser',
                         'MenuForm',
                         'osm2nx',
-                        'pika',
-                        'create_experiment',
-                        'create_simulation',
-                        'dramatiq',
-                        'docker_run',
-                        'dramatiq.GenericActor',
-                        'GenericActor'
+                        'pika'
                         ]
 
 
@@ -396,4 +391,7 @@ texinfo_documents = [
 
 
 # Example configuration for intersphinx: refer to the Python standard library.
-# intersphinx_mapping = {'https://docs.python.org/': None}
+intersphinx_mapping = {
+    # 'https://docs.python.org/': None,
+    'idmtools': ('https://institutefordiseasemodeling.github.io/idmtools/', None)
+}

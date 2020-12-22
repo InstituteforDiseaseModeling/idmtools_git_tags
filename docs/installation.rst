@@ -2,7 +2,7 @@
 Installation
 ============
 
-Follow the instructions below to install |idmtools_git_tags|.
+Follow the instructions below to install |IGT|.
 
 Requirements
 ============
@@ -18,7 +18,15 @@ more information, see documentation for venv_ or Anaconda_.
 Installation
 ============
 
+Install the package to your environment using::
+
+        pip install idmtools-git-tags --index-url=https://packages.idmod.org/api/pypi/pypi-production/simple
 
 
 Quick start guide
 =================
+
+After installation, the default configurations add git tags to all Experiment, Simulations, WorkItems, AssetCollections
+upon their creation.
+
+To change this behaviour, see Configuration

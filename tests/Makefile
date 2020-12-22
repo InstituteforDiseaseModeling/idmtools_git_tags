@@ -21,6 +21,10 @@ PARALLEL_TEST_COUNT?=8
 TEST_COMMAND =  py.test --timeout=600 --junitxml=$(REPORT_DIR)/$(TEST_REPORT) --html=$(REPORT_DIR)/$(HTML_TEST_REPORT) --self-contained-html $(TEST_EXTRA_OPTS)
 COVERAGE_OPTS := --cov-config=.coveragerc --cov-branch --cov-append --cov=idmtools --cov=idmtoools_cli --cov=idmtools_models --cov=idmtools_platform_comps --cov=idmtools_platform_local --cov=../../idmtools_cli/
 
+clean: ## Clean most of the temp-data from the project
+	-rm -rf .test_platform
+	-rm -rf *.log
+
 reports-exist:
 	-mkdir reports
 

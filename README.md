@@ -10,11 +10,11 @@
 # User Installation
 
 ```bash
-pip install idmtools_git_tags --index-url=https://packages.idmod.org/api/pypi/pypi-production/simple
+pip install idmtools-git-tags --index-url=https://packages.idmod.org/api/pypi/pypi-production/simple
 ```
 
 ## Pre-requisites
-- Python 3.6/3.7 x64
+- Python 3.6-3.8 x64
 
 
 # Development Environment Setup

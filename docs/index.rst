@@ -1,8 +1,8 @@
-====================
-Welcome to |idmtools_git_tags|
-====================
+==============================
+Welcome to |IGT|
+==============================
 
-|idmtools_git_tags| give short description on purpose of library.
+|IGT| give short description on purpose of library.
 
 .. _GitHub: https://github.com/InstituteforDiseaseModeling/idmtools_git_tags
 
@@ -13,6 +13,5 @@ Welcome to |idmtools_git_tags|
    :titlesonly:
 
    installation
-   overview
+   configuration
    idmtools_git_tags_index
-   glossary

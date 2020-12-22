@@ -1,4 +1,4 @@
-.PHONY: help clean lint test test-all test-failed test-smoke test-report coverage-report coverage coverage-smoke coverage-all coverage-report-view dist release-staging bump-release bump-release-dry-run bump-minor bump-minor-dry-run bump-major bump-major-dry-run bump-patch bump-patch-dry-run
+.PHONY: help clean lint test test-all test-failed test-smoke test-report coverage-report coverage coverage-smoke coverage-all coverage-report-view dist release-staging bump-release bump-release-dry-run bump-minor bump-minor-dry-run bump-major bump-major-dry-run bump-patch bump-patch-dry-run docs docs-server
 .EXPORT_ALL_VARIABLES:
 # Get dev scripts from any location
 mkfile_path := $(lastword $(MAKEFILE_LIST))
@@ -6,8 +6,8 @@ mkfile_dir := $(dir $(mkfile_path))
 # Platform Independent options for common commands
 MV?=mv
 RM?=rm
-# Convience function for running dev scripts
-PDS=$(PY) $(mkfile_dir)
+# Convenience function for running dev scripts
+PDS=$(PY) ./.dev_scripts/
 PY?=python
 IPY=python -c
 PDR=$(PDS)run.py
@@ -29,13 +29,12 @@ clean: ## Clean most of the temp-data from the project
 
 clean-all: clean ## Deleting package info hides plugins so we only want to do that for packaging
 	-rm -rf **/*.egg-info/
+	-rm *.buildlog
 
 
 # Linting
 lint: ## check style with flake8
 	flake8 --ignore=E501,W291 $(PACKAGE_NAME)
-
-
 
 ## Tests
 #############
