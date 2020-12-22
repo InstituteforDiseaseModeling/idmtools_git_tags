@@ -1,7 +1,7 @@
 import os
 import git
 from logging import getLogger, DEBUG
-from typing import TYPE_CHECKING, Union
+from typing import TYPE_CHECKING, Union, Dict
 from idmtools import IdmConfigParser
 from idmtools.assets import AssetCollection
 from idmtools.core import TRUTHY_VALUES
@@ -69,7 +69,16 @@ def idmtools_platform_pre_create_item(item: 'IEntity', kwargs):
 
 # Set the function cache for a few configuration options. A user most likely will only use one pattern
 # But these kwargs themselves can vary with other inputs
-def get_repo_tags(plugin_opts):
+def get_repo_tags(plugin_opts) -> Dict[str, str]:
+    """
+    Try to load info from the local directory
+
+    Args:
+        plugin_opts: Optiions from kwargs
+
+    Returns:
+        A dictionary of tags
+    """
     result = dict()
     if logger.isEnabledFor(DEBUG):
         logger.debug(f"Starting search for git directories from {os.getcwd()}")
