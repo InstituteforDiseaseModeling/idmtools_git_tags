@@ -1,4 +1,4 @@
---index-url=https://packages.idmod.org/api/pypi/pypi-production/simple
+--extra-index-url=https://packages.idmod.org/api/pypi/pypi-production/simple
 flake8~=3.8.4
 coverage~=5.3.1
 coloredlogs

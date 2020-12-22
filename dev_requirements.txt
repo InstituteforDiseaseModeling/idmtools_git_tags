@@ -1,4 +1,4 @@
---index-url=https://packages.idmod.org/api/pypi/pypi-production/simple
+--extra-index-url=https://packages.idmod.org/api/pypi/pypi-production/simple
 livereload~=2.6.3
 pytest-cache~=1.0
 pytest-cov~=2.10.1
