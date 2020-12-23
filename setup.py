@@ -50,6 +50,6 @@ setup(
     extras_require=extras,
     version='0.0.1.dev',
     entry_points=dict(
-        idmtools_hooks=["idmtools_add_git_tag = idmtools_git_tags.git_info"]
+        idmtools_hooks=["idmtools_git_tag = idmtools_git_tags.git_info"]
     )
 )

@@ -63,7 +63,7 @@ class TestGitTags(unittest.TestCase):
         finally:
             os.environ['IDMTOOLS_GIT_TAG_ADD_TO_ALL'] = 'y'
 
-    @pytest.mark.comps
+    @pytest.mark.serial
     def test_asset_collection(self):
         try:
             # Disable default one

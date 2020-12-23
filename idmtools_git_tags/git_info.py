@@ -48,7 +48,7 @@ def idmtools_platform_pre_create_item(item: 'IEntity', kwargs):
         Nothing
     """
     # Filter our options first
-    plugin_opts = {k: v for k, v in kwargs.items() if k.startswith(GIT_TAG)}
+    plugin_opts = {k: v for k, v in kwargs.items() if k.upper().startswith(GIT_TAG.upper())}
     # Load our config. We have to do this dynamically to allow it to be changed with run parameters
     add_to_all = get_option('add_to_all', kwargs, default='t')
     # Set to True if no value is defined at all. Otherwise, set it to truthiness
