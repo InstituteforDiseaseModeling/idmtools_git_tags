@@ -1,6 +1,6 @@
-============================
-|IGT| Configuration
-============================
+=============
+Configuration
+=============
 
 |IGT| uses idmtools to manage configurations. For details on the idmtools.ini, see :doc:`idmtools:configuration`.
 This plugin add a new section *GIT_TAG*.

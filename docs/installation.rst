@@ -29,4 +29,4 @@ Quick start guide
 After installation, the default configurations add git tags to all Experiment, Simulations, WorkItems, AssetCollections
 upon their creation.
 
-To change this behaviour, see Configuration
+To change this behaviour, see :doc:`Configuration<configuration>`
