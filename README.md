@@ -19,12 +19,12 @@
 # User Installation
 
 ```bash
-pip install idmtools-git-tags --index-url=https://packages.idmod.org/api/pypi/pypi-production/simple
+pip install idmtools-git-tags --extra-index-url=https://packages.idmod.org/api/pypi/pypi-production/simple
 ```
 
 ## Pre-requisites
 - Python 3.6-3.8 x64
-
+- idmtools 1.6.2 or greater
 
 # Development Environment Setup
 
@@ -43,16 +43,17 @@ When setting up your environment for the first time, you can use the following i
 
 ## Development Tips
 
-There is a Makefile file available for most common development tasks. Here is a list of commands
+There is a Makefile file available for most common development tasks. 
+
+To see the list of rules with descriptions, run `make help`.
+
+Here is a list of common commands
 ```bash
 clean       -   Clean up temproary files
 lint        -   Lint package and tests
 test        -   Run All tests
 coverage    -   Run tests and generate coverage report that is shown in browser
+docs        -   Build docs
+docs-server -   Build docs and server on localthost
 ```
 On Windows, you can use `pymake` instead of `make`
-
-
-## Building docs
-
-```make docs```

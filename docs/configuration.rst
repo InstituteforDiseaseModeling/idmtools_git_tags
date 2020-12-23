@@ -2,7 +2,8 @@
 |IGT| Configuration
 ============================
 
-|IGT| uses idmtools to manage configurations. For details on the idmtools.ini, see :doc:`idmtools:configuration` It add a new section *GIT_TAG*
+|IGT| uses idmtools to manage configurations. For details on the idmtools.ini, see :doc:`idmtools:configuration`.
+This plugin add a new section *GIT_TAG*.
 
 The following options are available:
 
@@ -20,6 +21,12 @@ The following options are available:
 * url_tag - Name of the hash tag. Defaults to 'git_url'
 
 All the values are booleans that expect some truthy value. See Truthy Values.
+
+Here is an example config disable global config and instead adding to only simulations::
+
+    [GIT_TAG]
+    add_to_all=no
+    add_to_simulations=yes
 
 These options can also be set using environment variables by prefixing the options with **IDMTOOLS_GIT_TAG_**.
 For example, to disable adding to all items and enable on only simulations you could do the following::
