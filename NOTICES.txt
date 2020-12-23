@@ -1,3 +1,115 @@
-The idmtools_git_tags project is leveraging the following open source technologies:
-
-Python/coloredlogs	https://pypi.org/project/coloredlogs/	MIT
+ Name                           Version     License                                                                                             
+ Babel                          2.9.0       BSD License                                                                                         
+ Flask                          1.1.2       BSD License                                                                                         
+ Flask-AutoIndex                0.6.6       MIT License                                                                                         
+ Flask-RESTful                  0.3.8       BSD License                                                                                         
+ Flask-SQLAlchemy               2.4.4       BSD License                                                                                         
+ Flask-Silk                     0.2         BSD License                                                                                         
+ GitPython                      3.1.11      BSD License                                                                                         
+ Jinja2                         2.11.2      BSD License                                                                                         
+ MarkupSafe                     1.1.1       BSD License                                                                                         
+ Pillow                         8.0.1       Historical Permission Notice and Disclaimer (HPND)                                                  
+ PyYAML                         5.3.1       MIT License                                                                                         
+ Pygments                       2.7.3       BSD License                                                                                         
+ SQLAlchemy                     1.3.22      MIT License                                                                                         
+ SecretStorage                  3.3.0       BSD License                                                                                         
+ Sphinx                         2.4.4       BSD License                                                                                         
+ Werkzeug                       1.0.1       BSD License                                                                                         
+ alabaster                      0.7.12      BSD License                                                                                         
+ aniso8601                      8.1.0       BSD License                                                                                         
+ apipkg                         1.5         MIT License                                                                                         
+ arrow                          0.17.0      Apache Software License                                                                             
+ attrs                          20.3.0      MIT License                                                                                         
+ backoff                        1.10.0      MIT License                                                                                         
+ beautifulsoup4                 4.9.3       MIT License                                                                                         
+ binaryornot                    0.4.4       BSD License                                                                                         
+ bleach                         3.2.1       Apache Software License                                                                             
+ certifi                        2020.12.5   Mozilla Public License 2.0 (MPL 2.0)                                                                
+ cffi                           1.14.4      MIT License                                                                                         
+ chardet                        4.0.0       GNU Library or Lesser General Public License (LGPL)                                                 
+ click                          7.1.2       BSD License                                                                                         
+ click-plugins                  1.1.1       BSD License                                                                                         
+ colorama                       0.4.4       BSD License                                                                                         
+ coloredlogs                    14.3        MIT License                                                                                         
+ cookiecutter                   1.7.2       BSD License                                                                                         
+ coverage                       5.3.1       Apache Software License                                                                             
+ cryptography                   3.3.1       Apache Software License, BSD License                                                                
+ cycler                         0.10.0      BSD                                                                                                 
+ diskcache                      5.1.0       Apache Software License                                                                             
+ docopt                         0.6.2       MIT License                                                                                         
+ docutils                       0.16        Public Domain, Python Software Foundation License, BSD License, GNU General Public License (GPL)    
+ execnet                        1.7.1       MIT License                                                                                         
+ flake8                         3.8.4       MIT License                                                                                         
+ future                         0.18.2      MIT License                                                                                         
+ gitdb                          4.0.5       BSD License                                                                                         
+ humanfriendly                  8.2         MIT License
+ idna                           2.10        BSD License                                                                                         
+ imagesize                      1.2.0       MIT License                                                                                         
+ iniconfig                      1.1.1       MIT License                                                                                         
+ itsdangerous                   1.1.0       BSD License                                                                                         
+ jeepney                        0.6.0       MIT License                                                                                         
+ jinja2-time                    0.2.0       MIT License                                                                                         
+ keyring                        21.5.0      Python Software Foundation License, MIT License                                                     
+ kiwisolver                     1.3.1       BSD License                                                                                         
+ livereload                     2.6.3       BSD License                                                                                         
+ matplotlib                     3.3.3       Python Software Foundation License                                                                  
+ mccabe                         0.6.1       MIT License                                                                                         
+ more-itertools                 8.6.0       MIT License                                                                                         
+ numpy                          1.19.3      BSD                                                                                                 
+ packaging                      20.8        Apache Software License, BSD License                                                                
+ pandas                         1.1.5       BSD                                                                                                 
+ pipreqs                        0.4.10      Apache Software License                                                                             
+ pkginfo                        1.6.1       MIT License                                                                                         
+ plantweb                       1.2.1       Apache Software License                                                                             
+ pluggy                         0.13.1      MIT License                                                                                         
+ pockets                        0.9.1       BSD License                                                                                         
+ poyo                           0.5.0       MIT License                                                                                         
+ psycopg2-binary                2.8.6       GNU Library or Lesser General Public License (LGPL)                                                 
+ py                             1.10.0      MIT License                                                                                         
+ pyCOMPS                        2.4.1       UNKNOWN                                                                                             
+ pycodestyle                    2.6.0       MIT License                                                                                         
+ pycparser                      2.20        BSD License                                                                                         
+ pyflakes                       2.2.0       MIT License                                                                                         
+ pyparsing                      2.4.7       MIT License                                                                                         
+ pyperclip                      1.8.1       BSD License                                                                                         
+ pytest                         6.2.1       MIT License                                                                                         
+ pytest-cache                   1.0         GNU General Public License (GPL)                                                                    
+ pytest-cov                     2.10.1      BSD License                                                                                         
+ pytest-forked                  1.3.0       MIT License                                                                                         
+ pytest-html                    3.1.1       Mozilla Public License 2.0 (MPL 2.0)                                                                
+ pytest-metadata                1.11.0      Mozilla Public License 2.0 (MPL 2.0)                                                                
+ pytest-runner                  5.2         MIT License                                                                                         
+ pytest-timeout                 1.4.2       DFSG approved, MIT License                                                                          
+ pytest-xdist                   2.2.0       MIT License                                                                                         
+ python-dateutil                2.8.1       BSD License, Apache Software License                                                                
+ python-slugify                 4.0.1       MIT License                                                                                         
+ pytz                           2020.4      MIT License                                                                                         
+ readme-renderer                28.0        Apache Software License                                                                             
+ requests                       2.25.1      Apache Software License                                                                             
+ requests-toolbelt              0.9.1       Apache Software License                                                                             
+ rfc3986                        1.4.0       Apache Software License                                                                             
+ six                            1.15.0      MIT License                                                                                         
+ smmap                          3.0.4       BSD License                                                                                         
+ snowballstemmer                2.0.0       BSD License                                                                                         
+ soupsieve                      2.1         MIT License                                                                                         
+ sphinx-rtd-theme               0.4.3       MIT License                                                                                         
+ sphinxcontrib-applehelp        1.0.2       BSD License                                                                                         
+ sphinxcontrib-devhelp          1.0.2       BSD License                                                                                         
+ sphinxcontrib-htmlhelp         1.0.3       BSD License                                                                                         
+ sphinxcontrib-jsmath           1.0.1       BSD License                                                                                         
+ sphinxcontrib-napoleon         0.7         BSD License                                                                                         
+ sphinxcontrib-programoutput    0.16        BSD License                                                                                         
+ sphinxcontrib-qthelp           1.0.3       BSD License                                                                                         
+ sphinxcontrib-serializinghtml  1.1.4       BSD License                                                                                         
+ tabulate                       0.8.7       MIT License                                                                                         
+ text-unidecode                 1.3         Artistic License, GNU General Public License (GPL), GNU General Public License v2 or later (GPLv2+) 
+ toml                           0.10.2      MIT License                                                                                         
+ tornado                        6.1         Apache Software License                                                                             
+ tqdm                           4.54.1      MIT License, Mozilla Public License 2.0 (MPL 2.0)                                                   
+ twine                          3.2.0       Apache Software License                                                                             
+ urllib3                        1.26.2      MIT License                                                                                         
+ webencodings                   0.5.1       BSD License                                                                                         
+ xdg                            5.0.1       ISC                                                                                                 
+ xmlrunner                      1.7.7       GNU Library or Lesser General Public License (LGPL)                                                 
+ yarg                           0.1.9       MIT License                                                                                         
+ yaspin                         1.2.0       MIT License                                                                                         
