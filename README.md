@@ -11,7 +11,6 @@
 - [Development Environment Setup](#development-environment-setup)
   - [First Time Setup](#first-time-setup)
   - [Development Tips](#development-tips)
-  - [Building docs](#building-docs)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
