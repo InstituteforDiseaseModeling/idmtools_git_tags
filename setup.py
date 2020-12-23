@@ -33,6 +33,7 @@ setup(
     author=[author[0] for author in authors],
     author_email=[author[1] for author in authors],
     classifiers=[
+        'idmtools :: plugins :: general',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7'
     ],
