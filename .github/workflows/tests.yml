@@ -36,13 +36,22 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install make
-          pip install black flake8
+          python -m pip install --upgrade pip
       - name: Run setup-dev
         run: |
           make setup-dev
+        env:
+          BUILD_DEBUG: 1
+      - name: Login to comps for some of the tests
+        run: |
+          idmtools comps SLURMSTAGE login
+        env:
+          BUILD_DEBUG: 1
+          IDMTOOLS_CLI_COMPS_LOGIN_USERNAME: ${{ secrets.COMPS_USER }}
+          IDMTOOLS_CLI_COMPS_LOGIN_PASSWORD: ${{ secrets.COMPS_PASSWORD }}
       - name: run idmtools_git_tags tests
         run: |
-            py.test --durations=3 -v --junitxml=test_results.xml
+            make tests
       - name: Upload idmtools_git_tags test results
         uses: actions/upload-artifact@v2
         if: failure()
