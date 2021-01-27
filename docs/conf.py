@@ -390,8 +390,13 @@ texinfo_documents = [
 # texinfo_no_detailmenu = False
 
 
+IDMTOOLS_RTD_READ_TOKEN = os.environ.get('IDMTOOLS_RTD_READ_TOKEN')
+
+if IDMTOOLS_RTD_READ_TOKEN is None:
+    print("You must set IDMTOOLS_RTD_READ_TOKEN!. You can obtain token from idm-vault Development secrets. You can also contact Clinton Collins.")
+    sys.exit(-1)
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {
     # 'https://docs.python.org/': None,
-    'idmtools': ('https://institutefordiseasemodeling.github.io/idmtools/', None)
+    'idmtools': (f'https://{IDMTOOLS_RTD_READ_TOKEN}:@docs.idmod.org/projects/idmtools/en/latest/', None)
 }
